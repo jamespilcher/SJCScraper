@@ -14,7 +14,7 @@ Okay, now onto the boring stuff...
 git clone https://github.com/jamespilcher/SJCScraper
 ```
 
-1. Get added to the `sunday-journal-club` project in Google Cloud Console, and also be added as a Test User for the OAuth consent screen. Those in the sunday-journal-club@googlegroups.com already have access.
+1. Get added to the `sunday-journal-club` project in Google Cloud Console, and also be added as a Test User for the OAuth consent screen. Those in the `sunday-journal-club` google group already have access.
 2. Navigate to APIs & Services -> Credentials. Under OAuth 2.0 Client IDs, download the SJCScraper as a JSON.
 3. Place that JSON in the root of your SJCScraper directory, and rename it to `credentials.json`.
     - Alternatively you can set the `GOOGLE_OAUTH_CREDENTIALS_PATH` environment variable.
