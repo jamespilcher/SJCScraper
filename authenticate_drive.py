@@ -5,8 +5,7 @@ import os
 
 SCOPES = ['https://www.googleapis.com/auth/drive.readonly']
 TOKEN_CACHE = 'caches/token_cache.pkl'
-CREDENTIALS_JSON = "credentials.json" # Path to the downloaded JSON file containing your OAuth 2.0 credentials [secret!]
-
+CREDENTIALS_JSON = os.getenv('GOOGLE_OAUTH_CREDENTIALS_PATH', 'credentials.json')
 def authenticate():
     creds = None
     # The file token.pickle stores the user's access and refresh tokens, and is
