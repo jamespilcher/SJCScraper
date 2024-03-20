@@ -48,7 +48,7 @@ python ./analysis.py
 
 Example output:
 ```
-            author  word_count_sum  word_count_mean  sentiment_polarity_mean  sentiment_subjectivity_mean
+              author  word_count_sum  word_count_mean  sentiment_polarity_mean  sentiment_subjectivity_mean
 0   britta@gmail.com           23792      1113.588235                 0.190861                     0.499228           
 1     troy@gmail.com            9521       521.000000                -0.056213                     0.574097            
 2     jeff@gmail.com            2458       729.000000                 0.107223                     0.496752             
