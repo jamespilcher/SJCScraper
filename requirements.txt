@@ -5,3 +5,5 @@ pandas
 textblob
 python-docx
 pre-commit
+nltk
+ipykernel
