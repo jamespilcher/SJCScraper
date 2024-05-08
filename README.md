@@ -38,6 +38,10 @@ Pre-commit set up:
 pre-commit install
 ```
 
+Add the SJC Folder ID to `generate_basic_dataframe.py`. You can get this from its URL
+```
+SJC_FOLDER_ID = "XXXXXXXXX"
+```
 
 # Running
 

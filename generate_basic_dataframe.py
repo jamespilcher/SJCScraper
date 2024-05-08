@@ -13,7 +13,7 @@ logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)
 
 CACHE_FILE = "caches/dataframe_cache.pkl"
-SJC_FOLDER_ID = "1Y4vQAMnKFZDc8xVzSmjROqzjx9oo3gPS"
+SJC_FOLDER_ID = "" # Implement SJC folder ID here
 CREDENTIALS = authenticate_drive.authenticate()
 SERVICE = build("drive", "v3", credentials=CREDENTIALS)
 
