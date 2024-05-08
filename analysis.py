@@ -1,10 +1,10 @@
 from textblob import TextBlob
 
-import populate_dataframe
+import generate_basic_dataframe
 
 # ----------- Temporary Analysis! -----------
 
-df = populate_dataframe.generate_dataframe()
+df = generate_basic_dataframe.generate_basic_dataframe()
 #  columns=['week', 'title', 'content', 'author', 'file_id'])
 
 # Create new columns for word count, sentiment polarity and sentiment subjectivity
